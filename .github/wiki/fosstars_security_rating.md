@@ -1,6 +1,6 @@
 **Rating**: **MODERATE**
 
-**Score**: **4.72**, max score value is 10.0
+**Score**: **4.74**, max score value is 10.0
 
 **Confidence**: High (9.57, max confidence value is 10.0)
 
@@ -79,7 +79,7 @@ It used the following sub-scores:
     
 1.  **[Community commitment](#community-commitment)**: **0.0** (weight is 0.5)
     
-1.  **[Project activity](#project-activity)**: **0.32** (weight is 0.5)
+1.  **[Project activity](#project-activity)**: **0.48** (weight is 0.5)
     
 1.  **[Project popularity](#project-popularity)**: **0.01** (weight is 0.5)
     
@@ -300,18 +300,18 @@ This sub-score is based on 3 features:
 
 ### Project activity
 
-Score: **0.32**, confidence is 10.0 (max), weight is 0.5 (medium)
+Score: **0.48**, confidence is 10.0 (max), weight is 0.5 (medium)
 
 The score evaluates how active a project is. It's based on number of commits and contributors in the last 3 months.
 
-2 commits in the last 3 months results to 0.31 points
-2 contributors increase the score value from 0.31 to 0.32
+3 commits in the last 3 months results to 0.46 points
+2 contributors increase the score value from 0.46 to 0.48
 
 This sub-score is based on 2 features:
 
 
 
-1.  **Number of commits in the last three months:** 2
+1.  **Number of commits in the last three months:** 3
 1.  **Number of contributors in the last three months:** 2
 
 
@@ -408,7 +408,7 @@ This sub-score is based on 2 features:
 
 
 1.  **Is it included to OSS-Fuzz?** No
-1.  **Programming languages:** OTHER
+1.  **Programming languages:** None
 
 
 ### Memory-safety testing
@@ -426,7 +426,7 @@ This sub-score is based on 4 features:
 1.  **Does it use AddressSanitizer?** No
 1.  **Does it use MemorySanitizer?** No
 1.  **Does it use UndefinedBehaviorSanitizer?** No
-1.  **Programming languages:** OTHER
+1.  **Programming languages:** None
 
 
 ### nohttp tool
@@ -460,7 +460,7 @@ This sub-score is based on 4 features:
 1.  **Does it use Dependabot?** Yes
 1.  **Does it use GitHub as the main development platform?** Yes
 1.  **Package managers:** None
-1.  **Programming languages:** OTHER
+1.  **Programming languages:** None
 
 
 ### Snyk score
@@ -478,7 +478,7 @@ This sub-score is based on 4 features:
 1.  **Does it use GitHub as the main development platform?** Yes
 1.  **Does it use Snyk?** No
 1.  **Package managers:** None
-1.  **Programming languages:** OTHER
+1.  **Programming languages:** None
 
 
 ### OWASP Dependency Check score
@@ -510,7 +510,7 @@ This sub-score is based on 2 features:
 
 
 
-1.  **Programming languages:** OTHER
+1.  **Programming languages:** None
 1.  **The worst LGTM grade of the project:** unknown
 
 
@@ -529,7 +529,7 @@ This sub-score is based on 4 features:
 1.  **Does it run CodeQL scans?** No
 1.  **Does it use CodeQL checks for pull requests?** No
 1.  **Does it use LGTM checks?** No
-1.  **Programming languages:** OTHER
+1.  **Programming languages:** None
 
 
 ### GoSec score
@@ -547,7 +547,7 @@ This sub-score is based on 4 features:
 1.  **Does it run GoSec scans on all pull requests?** No
 1.  **Does it run GoSec scans with rules?** No
 1.  **Does it run GoSec scans?** No
-1.  **Programming languages:** OTHER
+1.  **Programming languages:** None
 
 
 ### Bandit score
@@ -564,7 +564,7 @@ This sub-score is based on 3 features:
 
 1.  **If a project runs Bandit scan checks for commits:** No
 1.  **If a project runs Bandit scans:** No
-1.  **Programming languages:** OTHER
+1.  **Programming languages:** None
 
 
 ### FindSecBugs score
@@ -580,7 +580,7 @@ This sub-score is based on 2 features:
 
 
 1.  **Does it use FindSecBugs?** No
-1.  **Programming languages:** OTHER
+1.  **Programming languages:** None
 
 
 ### How a project uses Pylint
@@ -597,7 +597,7 @@ This sub-score is based on 3 features:
 
 1.  **Does it run Pylint scans on all commits?** No
 1.  **Does it run Pylint scans?** No
-1.  **Programming languages:** OTHER
+1.  **Programming languages:** None
 
 
 ### How a project uses MyPy
@@ -614,7 +614,7 @@ This sub-score is based on 3 features:
 
 1.  **Does it run MyPy scans on all commits?** No
 1.  **Does it run MyPy scans?** No
-1.  **Programming languages:** OTHER
+1.  **Programming languages:** None
 
 
 ## Known vulnerabilities
