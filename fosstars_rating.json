@@ -258,7 +258,7 @@
         }
       }
     },
-    "value" : 4.800763775231862,
+    "value" : 4.723022367703219,
     "weight" : 1.0,
     "confidence" : 9.566989916533991,
     "usedValues" : [ {
@@ -415,7 +415,7 @@
               "name" : "A set of programming languages"
             },
             "languages" : {
-              "elements" : [ ]
+              "elements" : [ "OTHER" ]
             },
             "explanation" : [ ]
           } ],
@@ -468,7 +468,7 @@
               "name" : "A set of programming languages"
             },
             "languages" : {
-              "elements" : [ ]
+              "elements" : [ "OTHER" ]
             },
             "explanation" : [ ]
           } ],
@@ -669,7 +669,7 @@
               "name" : "A set of programming languages"
             },
             "languages" : {
-              "elements" : [ ]
+              "elements" : [ "OTHER" ]
             },
             "explanation" : [ ]
           } ],
@@ -703,7 +703,7 @@
               "name" : "A set of programming languages"
             },
             "languages" : {
-              "elements" : [ ]
+              "elements" : [ "OTHER" ]
             },
             "explanation" : [ ]
           } ],
@@ -746,7 +746,7 @@
               "name" : "A set of programming languages"
             },
             "languages" : {
-              "elements" : [ ]
+              "elements" : [ "OTHER" ]
             },
             "explanation" : [ ]
           } ],
@@ -773,7 +773,7 @@
               "name" : "A set of programming languages"
             },
             "languages" : {
-              "elements" : [ ]
+              "elements" : [ "OTHER" ]
             },
             "explanation" : [ ]
           }, {
@@ -824,7 +824,7 @@
               "name" : "A set of programming languages"
             },
             "languages" : {
-              "elements" : [ ]
+              "elements" : [ "OTHER" ]
             },
             "explanation" : [ ]
           } ],
@@ -867,7 +867,7 @@
               "name" : "A set of programming languages"
             },
             "languages" : {
-              "elements" : [ ]
+              "elements" : [ "OTHER" ]
             },
             "explanation" : [ ]
           } ],
@@ -918,7 +918,7 @@
               "name" : "A set of programming languages"
             },
             "languages" : {
-              "elements" : [ ]
+              "elements" : [ "OTHER" ]
             },
             "explanation" : [ ]
           } ],
@@ -1007,7 +1007,7 @@
             "name" : "A set of programming languages"
           },
           "languages" : {
-            "elements" : [ ]
+            "elements" : [ "OTHER" ]
           },
           "explanation" : [ ]
         }, {
@@ -1042,7 +1042,7 @@
             "name" : "A set of programming languages"
           },
           "languages" : {
-            "elements" : [ ]
+            "elements" : [ "OTHER" ]
           },
           "explanation" : [ ]
         }, {
@@ -1253,7 +1253,7 @@
         "type" : "ProjectActivityScore",
         "name" : "Open-source project activity score"
       },
-      "value" : 0.15384615384615385,
+      "value" : 0.3230769230769231,
       "weight" : 0.5,
       "confidence" : 10.0,
       "usedValues" : [ {
@@ -1262,7 +1262,7 @@
           "type" : "PositiveIntegerFeature",
           "name" : "Number of commits in the last three months"
         },
-        "number" : 1,
+        "number" : 2,
         "explanation" : [ ]
       }, {
         "type" : "IntegerValue",
@@ -1270,10 +1270,10 @@
           "type" : "PositiveIntegerFeature",
           "name" : "Number of contributors in the last three months"
         },
-        "number" : 1,
+        "number" : 2,
         "explanation" : [ ]
       } ],
-      "explanation" : [ "1 commits in the last 3 months results to 0.15 points" ],
+      "explanation" : [ "2 commits in the last 3 months results to 0.31 points", "2 contributors increase the score value from 0.31 to 0.32" ],
       "isUnknown" : false,
       "isNotApplicable" : false,
       "feature" : {
@@ -1286,7 +1286,7 @@
         "type" : "ProjectSecurityAwarenessScore",
         "name" : "How well open-source community is aware about security"
       },
-      "value" : 3.5,
+      "value" : 3.0,
       "weight" : 0.9,
       "confidence" : 10.0,
       "usedValues" : [ {
@@ -1311,7 +1311,7 @@
           "type" : "BooleanFeature",
           "name" : "If a project uses signed commits"
         },
-        "flag" : true,
+        "flag" : false,
         "explanation" : [ ]
       }, {
         "type" : "BooleanValue",
@@ -1785,7 +1785,7 @@
                 "name" : "A set of programming languages"
               },
               "languages" : {
-                "elements" : [ ]
+                "elements" : [ "OTHER" ]
               },
               "explanation" : [ ]
             } ],
@@ -1838,7 +1838,7 @@
                 "name" : "A set of programming languages"
               },
               "languages" : {
-                "elements" : [ ]
+                "elements" : [ "OTHER" ]
               },
               "explanation" : [ ]
             } ],
@@ -2039,7 +2039,7 @@
                 "name" : "A set of programming languages"
               },
               "languages" : {
-                "elements" : [ ]
+                "elements" : [ "OTHER" ]
               },
               "explanation" : [ ]
             } ],
@@ -2073,7 +2073,7 @@
                 "name" : "A set of programming languages"
               },
               "languages" : {
-                "elements" : [ ]
+                "elements" : [ "OTHER" ]
               },
               "explanation" : [ ]
             } ],
@@ -2116,7 +2116,7 @@
                 "name" : "A set of programming languages"
               },
               "languages" : {
-                "elements" : [ ]
+                "elements" : [ "OTHER" ]
               },
               "explanation" : [ ]
             } ],
@@ -2143,7 +2143,7 @@
                 "name" : "A set of programming languages"
               },
               "languages" : {
-                "elements" : [ ]
+                "elements" : [ "OTHER" ]
               },
               "explanation" : [ ]
             }, {
@@ -2194,7 +2194,7 @@
                 "name" : "A set of programming languages"
               },
               "languages" : {
-                "elements" : [ ]
+                "elements" : [ "OTHER" ]
               },
               "explanation" : [ ]
             } ],
@@ -2237,7 +2237,7 @@
                 "name" : "A set of programming languages"
               },
               "languages" : {
-                "elements" : [ ]
+                "elements" : [ "OTHER" ]
               },
               "explanation" : [ ]
             } ],
@@ -2288,7 +2288,7 @@
                 "name" : "A set of programming languages"
               },
               "languages" : {
-                "elements" : [ ]
+                "elements" : [ "OTHER" ]
               },
               "explanation" : [ ]
             } ],
@@ -2377,7 +2377,7 @@
               "name" : "A set of programming languages"
             },
             "languages" : {
-              "elements" : [ ]
+              "elements" : [ "OTHER" ]
             },
             "explanation" : [ ]
           }, {
@@ -2412,7 +2412,7 @@
               "name" : "A set of programming languages"
             },
             "languages" : {
-              "elements" : [ ]
+              "elements" : [ "OTHER" ]
             },
             "explanation" : [ ]
           }, {
