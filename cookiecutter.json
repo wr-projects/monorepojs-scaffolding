@@ -1,0 +1,26 @@
+{
+    "organization": "@wr-projects",
+
+    "discord_url": "https://discord.gg/B8gJqUdGtB",
+
+    "organization_email": "support@webreadyprojects.atlassian.net",
+    "support_email": "support@webreadyprojects.atlassian.net",
+
+    "project_owner": "@GregoireF",
+    "owner_email": "default@user.fr",
+
+    "project_slug": "project_slug",
+
+    "github_repo_url": "wr-projects/{{ cookiecutter.project_slug }}",
+    "short_description": "A short description of the project to go in the readme",
+    "repo_license_type": "Apache-2.0",
+
+    "package_slug": "first_package",
+    "package_description": "AAAAAA",
+    "package_license_type": "MIT",
+
+    "project_homepage": "none",
+    "documentation_homepage": "none",
+
+    "release_year": 2022
+}

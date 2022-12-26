@@ -1,0 +1,36 @@
+version: v1
+
+labels:
+  - label: area/github
+    sync: true
+    matcher:
+      files: "./github/**"
+
+  - label: area/stackblitz-config
+    sync: true
+    matcher: "./stackblitz/**"
+
+  - label: area/vscode
+    sync: true
+    matcher:
+      files: "./vscode/**"
+
+  - label: area/docs
+    sync: true
+    matcher:
+      files: "docs/**"
+
+  - label: area/examples
+    sync: true
+    matcher:
+      files: "examples/**"
+
+  - label: area/LICENSES
+    sync: true
+    matcher:
+      files: "LICENSES/**"
+
+  - label: area/packages
+    sync: true
+    matcher:
+      files: "packages/**"

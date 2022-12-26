@@ -1,0 +1,356 @@
+version: v1
+
+issue:
+
+  labels:
+    - prefix: triage
+      list: [ "accepted" ]
+      multiple: false
+      author_association:
+        collaborator: true
+        member: true
+        owner: true
+      needs:
+        comment: |
+          Hey @AUTHOR,
+
+          Thank you for your interest in our project, %PROJECT%.
+          Your incident will soon be handled by the WebReady Projects open source team.
+          Feel free to check out our links below:
+            :point_right: Check [%PROJECT% Docs]() to see if your issue can be self resolved.
+            :point_right: [Discord Server]()
+
+          We thank you in advance for your patience.
+
+          Best regards,
+
+          The WebReady Projects Team
+
+  chat_ops:
+    # add label priority low
+    - cmd: /priority-low
+      type: label
+      label:
+        add: ⚠️ low
+        author_association:
+          collaborator: true
+          member: true
+          owner: true
+
+    # add label priority medium
+    - cmd: /priority-medium
+      type: label
+      label:
+        add: ⚠️ medium
+        author_association:
+          collaborator: true
+          member: true
+          owner: true
+
+    # add label priority high
+    - cmd: /priority-high
+      type: label
+      label:
+        add: ⚠️ high
+        author_association:
+          collaborator: true
+          member: true
+          owner: true
+
+    # add label priority critical
+    - cmd: /priority-critical
+      type: label
+      label:
+        add: ⚠️ critical
+        author_association:
+          collaborator: true
+          member: true
+          owner: true
+
+    #
+    - cmd: /blocked
+      type: label
+      label:
+        add: ⛔ blocked
+        author_association:
+          author: true
+          collaborator: true
+          member: true
+          owner: true
+
+    #
+    - cmd: /blocker
+      type: label
+      label:
+        add: ⛔ blocker
+        author_association:
+          author: true
+          collaborator: true
+          member: true
+          owner: true
+
+    #
+    - cmd: /need-support
+      type: comment
+      comment: |
+        Hey @ISSUE_AUTHOR,
+
+      author_association:
+        collaborator: true
+        member: true
+        owner: true
+
+    #
+    - cmd: /need-support
+      type: close
+      author_association:
+        author: true
+        collaborator: true
+        member: true
+        owner: true
+
+    #
+    - cmd: /need-support
+      type: label
+      label:
+        add:
+      author_association:
+        author: true
+        collaborator: true
+        member: true
+        owner: true
+
+    # assign user
+    - cmd: /assign
+      type: assign
+      author_association:
+        collaborator: true
+        member: true
+        owner: true
+
+    # close issues
+    - cmd: /close
+      type: close
+      author_association:
+        author: true
+        collaborator: true
+        member: true
+        owner: true
+
+    # close duplicate
+    - cmd: /duplicate
+      type: close
+      author_association:
+        author: true
+        collaborator: true
+        member: true
+        owner: true
+
+    # close duplicate comment
+    - cmd: /duplicate
+      type: comment
+      comment: |
+        Hey @ISSUE_AUTHOR,
+
+      author_association:
+        collaborator: true
+        member: true
+        owner: true
+
+    # close duplicate label
+    - cmd: /duplicate
+      type: label
+      label:
+        add: duplicate
+        author_association:
+          author: true
+          collaborator: true
+          member: true
+          owner: true
+
+    # r1 comment
+    - cmd: /r1
+      type: comment
+      comment: |
+        Hey @ISSUE_AUTHOR,
+
+        Thank you for your interest in our project, %PROJECT%.
+        Can you please provide us with the missing information from your incident in order to complete the handling of your incident.
+        We can be reached on the following channels:
+
+
+        Best regards,
+
+        Support WRProjects - @AUTHOR
+      author_association:
+        collaborator: true
+        member: true
+        owner: true
+
+    # add r1 label
+    - cmd: /r1
+      type: label
+      label:
+        add: 🕜 relaunch-1
+        author_association:
+          collaborator: true
+          member: true
+          owner: true
+
+    # r2 comment
+    - cmd: /r2
+      type: comment
+      comment: |
+        Hey @ISSUE_AUTHOR,
+
+        Thank you for your interest in our project, %PROJECT%.
+        Can you please provide us with the missing information from your incident in order to complete the handling of your incident.
+        We can be reached on the following channels:
+
+
+        Best regards,
+
+        Support WRProjects - @AUTHOR
+      author_association:
+        collaborator: true
+        member: true
+        owner: true
+
+    # add r2 label
+    - cmd: /r2
+      type: label
+      label:
+        add: 🕜 relaunch-2
+        author_association:
+          collaborator: true
+          member: true
+          owner: true
+
+    # r3 comment
+    - cmd: /r3
+      type: comment
+      comment: |
+        Hey @ISSUE_AUTHOR,
+
+        Thank you for your interest in our project, %PROJECT%.
+        Can you please provide us with the missing information from your incident in order to complete the handling of your incident.
+        We can be reached on the following channels:
+
+
+        Best regards,
+
+        Support WRProjects - @AUTHOR
+      author_association:
+        collaborator: true
+        member: true
+        owner: true
+
+    # add r3 label
+    - cmd: /r3
+      type: label
+      label:
+        add: 🕜 relaunch-3
+        author_association:
+          collaborator: true
+          member: true
+          owner: true
+
+    # add no-scope comment
+    - cmd: /no-scope
+      type: comment
+      comment: |
+        Hey @ISSUE_AUTHOR,
+
+      author_association:
+        collaborator: true
+        member: true
+        owner: true
+
+    # add no-scope label
+    - cmd: /no-scope
+      type: label
+      label:
+        add:
+        author_association:
+          collaborator: true
+          member: true
+          owner: true
+
+    # add incident general comment
+    - cmd: /ig
+      type: comment |
+      comment: |
+        Hey @ISSUE_AUTHOR,
+
+        Thank you for your interest in our project, %PROJECT%.
+        We have found that a general incident is in progress your incident.
+        We will inform you of the resolution procedure or a workaround once it is found.
+
+        Best regards,
+
+        Support WRProjects - @AUTHOR
+      author_association:
+        collaborator: true
+        member: true
+        owner: true
+
+    # add incident-general label
+    - cmd: /ig
+      type: label
+      label:
+        add:
+        author_association:
+          collaborator: true
+          member: true
+          owner: true
+
+    # add nedd-rfcs comment
+    - cmd: /need-rfcs
+      type: comment
+      comment: |
+        Hey @ISSUE_AUTHOR,
+
+        Thank you for your interest in our project, %PROJECT%.
+        We think your incident should be turned into an RFC.
+        We are therefore closing your incident and creating the RFC in question.
+
+        Best regards,
+
+        Support WRProjects - @AUTHOR
+
+    # add need-rfcs label
+    - cmd: /need-rfcs
+      type: label
+      label:
+        add:
+          author_association:
+          collaborator: true
+          member: true
+          owner: true
+
+    # close need-rfcs
+    - cmd: /need-rfcs
+      type: close
+      author_association:
+        collaborator: true
+        member: true
+        owner: true
+
+pull_request:
+  chat_ops:
+    # /assign @user
+    - cmd: /assign
+      type: assign
+
+    # /request-review @user
+    - cmd: /request-review
+      type: review
+
+    # /close pr
+    - cmd: /close
+      type: close
+      author_association:
+        author: true
+        collaborator: true
+        member: true
+        owner: true

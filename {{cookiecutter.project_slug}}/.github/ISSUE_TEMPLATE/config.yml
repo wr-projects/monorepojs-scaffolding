@@ -1,0 +1,8 @@
+blank_issues_enabled: false
+contact_links:
+  - name: 💬 WebReady Projects Questions and Discussions
+    url: https://github.com/{{ cookiecutter.github_repo_url }}/discussions
+    about: Please ask and answer questions here.
+  - name: 💬 Join the Discord community
+    url: {{ cookiecutter.discord_url }}
+    about: Come and chat with all the members of the community !
