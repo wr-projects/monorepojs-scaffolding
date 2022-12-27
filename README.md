@@ -3,7 +3,7 @@
 [![REUSE status](https://api.reuse.software/badge/github.com/wr-projects/github-template)](https://api.reuse.software/info/github.com/wr-projects/monorepojs-scaffolding)
 [![OSSLifecycle](https://img.shields.io/osslifecycle/wr-projects/github-template)](https://github.com/wr-projects/monorepojs-scaffolding/blob/main/OSSMETADATA)
 [![Fosstars security rating](https://raw.githubusercontent.com/wr-projects/monorepojs-scaffolding/.github/assets/fosstars-report/fosstars-security-rating.svg)](https://github.com/wr-projects/monorepojs-scaffolding/blob/fosstars-report/fosstars_security_rating.md)<!-- ALL-CONTRIBUTORS-BADGE:START - Do not remove or modify this section -->
-[![All Contributors](https://img.shields.io/badge/all_contributors-2-orange.svg)](#contributors)
+[![All Contributors](https://img.shields.io/badge/all_contributors-1-orange.svg?style=flat-square)](#contributors-)
 <!-- ALL-CONTRIBUTORS-BADGE:END -->
 
 # monorepojs-scaffolding
@@ -80,6 +80,13 @@ Lint all the necessary files in the project. - [Project Homepage](https://github
 <!-- ALL-CONTRIBUTORS-LIST:START - Do not remove or modify this section -->
 <!-- prettier-ignore-start -->
 <!-- markdownlint-disable -->
+<table>
+  <tbody>
+    <tr>
+      <td align="center"><a href="https://www.facebook.com/profile.php?id=100009457709527"><img src="https://avatars.githubusercontent.com/u/16638358?v=4?s=100" width="100px;" alt="Gregoire Favreau"/><br /><sub><b>Gregoire Favreau</b></sub></a><br /><a href="#projectManagement-GregoireF" title="Project Management">📆</a></td>
+    </tr>
+  </tbody>
+</table>
 
 <!-- markdownlint-restore -->
 <!-- prettier-ignore-end -->
