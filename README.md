@@ -93,8 +93,14 @@ Lint all the necessary files in the project. - [Project Homepage](https://github
 
 <!-- ALL-CONTRIBUTORS-LIST:END -->
 
-## Authors
+## Credits 
 
-[<img src="https://avatars.githubusercontent.com/u/16638358?v=4?size=115" width=115><br><sub>@GregoireF</sub>](https://github.com/GregoireF)
+Thanks to [Cookiecutter](https://github.com/cookiecutter/cookiecutter) for the utility
+
+## Social networks
 
 Follow [@WebReadyProjects](https://twitter.com/WebReadyCompany) on Twitter for updates.
+
+## License
+
+[MIT](https://github.com/wr-projects/monorepojs-scaffolding/blob/main/LICENSE)
