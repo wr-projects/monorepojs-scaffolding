@@ -1,3 +1,11 @@
+[![Maintainer](https://img.shields.io/badge/Maintainer-WRProjects-7F187F)](https://github.com/wr-projects/)
+![./LICENSE](https://img.shields.io/github/license/wr-projects/monorepojs-scaffolding)
+[![REUSE status](https://api.reuse.software/badge/github.com/wr-projects/github-template)](https://api.reuse.software/info/github.com/wr-projects/monorepojs-scaffolding)
+[![OSSLifecycle](https://img.shields.io/osslifecycle/wr-projects/github-template)](https://github.com/wr-projects/monorepojs-scaffolding/blob/main/OSSMETADATA)
+[![Fosstars security rating](https://raw.githubusercontent.com/wr-projects/monorepojs-scaffolding/.github/assets/fosstars-report/fosstars-security-rating.svg)](https://github.com/wr-projects/monorepojs-scaffolding/blob/fosstars-report/fosstars_security_rating.md)<!-- ALL-CONTRIBUTORS-BADGE:START - Do not remove or modify this section -->
+[![All Contributors](https://img.shields.io/badge/all_contributors-2-orange.svg)](#contributors)
+<!-- ALL-CONTRIBUTORS-BADGE:END -->
+
 # monorepojs-scaffolding
 
 Scaffolding tools for creating and mainting projects based on WebReady Projects Open Source standards and best practices.
@@ -68,8 +76,18 @@ Lint all the necessary files in the project. - [Project Homepage](https://github
 
 ---
 
+## Contributors
+<!-- ALL-CONTRIBUTORS-LIST:START - Do not remove or modify this section -->
+<!-- prettier-ignore-start -->
+<!-- markdownlint-disable -->
+
+<!-- markdownlint-restore -->
+<!-- prettier-ignore-end -->
+
+<!-- ALL-CONTRIBUTORS-LIST:END -->
+
 ## Authors
 
-*   [WebReadyProjects](https://github.com/wr-projects/) <support@webreadyprojects.atlassian.net>
+[<img src="https://avatars.githubusercontent.com/u/16638358?v=4?size=115" width=115><br><sub>@GregoireF</sub>](https://github.com/GregoireF)
 
 Follow [@WebReadyProjects](https://twitter.com/WebReadyCompany) on Twitter for updates.
